@@ -1,3 +1,20 @@
+.App {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .username {
   color: rgb(47, 194, 244);
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
 }

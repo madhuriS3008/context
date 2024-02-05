@@ -1,10 +1,13 @@
+import Title from "./Title";
 import LoggedInUser from "./LoggedInUser";
+import Switch from "./Switch";
 
 const Header = () => {
   return (
     <header>
-      <h2>Blog App</h2>
+      <Title>Blog App</Title>
       <LoggedInUser />
+      <Switch />
     </header>
   );
 };
